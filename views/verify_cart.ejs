@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>نتیجه پرداخت</title>
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="styles/globals.css" />
+    <link rel="stylesheet" type="text/css" href="styles/verify_cart.css" />
+  </head>
+  <body>
+    <div class="Successful-payment--container">
+        <div class="Successful-payment">
+          <div class="Successful-payment-item1">
+            <div class="Successful-payment-item1-logo">
+              <img
+                class="Successful-payment-item1-img"
+                src="http://localhost:4020/media/UnsuccessfulPayment/logo-arshyanfar.png"
+                alt="logo"
+              ></img>
+            </div>
+            <div class="Successful-payment-item1-text">
+              <div class="Successful-payment-item1-text1">
+                استاد سیدمحمد عرشیانفر
+              </div>
+              <div class="Successful-payment-item1-text2">
+                گروه بین‌المللی عرشیان
+              </div>
+            </div>
+          </div>
+          <% if(success){ %>
+            <div><div class="Successful-payment-item3">پرداخت شما با موفقیت به اتمام رسید</div><div class="Successful-payment-item4">پرداخت شما با شماره پیگیری <%= ref_id %> با موفقیت به اتمام رسید</div></div>
+            <% } else { %>
+                <div><div class="Successful-payment-item3">عملیات پرداخت با خطا رو به روشد</div><div class="Successful-payment-item4">پرداخت شما با خطا رو به رو شد</div></div>
+                <% } %>
+
+                <% if(success){ %>
+                    <div class="Successful-payment-item5">
+                        <a href="http://localhost:3000/profile" class="Successful-payment-item5-button">
+                          بازگشت به پروفایل
+                        </a>
+                      </div>                 
+                         <% } else { %>
+                        <div class="Successful-payment-item5">
+                            <a href="http://localhost:3000" class="Successful-payment-item5-button" >
+                              بازگشت به صفحه اصلی
+                        </a>
+                            <button class="Successful-payment-item5-button1">
+                              
+                              تماس با پشتیبانی
+                            </button>
+                          </div>                        <% } %>
+        </div>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,205 @@
+.Successful-payment--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Successful-payment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 3rem);
+
+  max-width: 1320px;
+  margin-top: 10rem;
+}
+.Successful-payment-item1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Successful-payment-item1-img {
+  width: 7rem;
+}
+.Successful-payment-item1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1320px;
+}
+.Successful-payment-item1-text {
+  margin-right: 1rem;
+}
+.Successful-payment-item1-text1 {
+  font-size: 3rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7;
+
+  text-align: right;
+  color: #000000;
+}
+.Successful-payment-item1-text2 {
+  font-size: 2.3rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+
+  margin: -13px -2px 0px 0;
+  text-align: right;
+  color: #acacac;
+}
+.Successful-payment-item2 {
+  font-size: 8.4rem;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.27;
+  margin: 6.3rem 0 0 0;
+
+  text-align: right;
+  color: rgba(14, 28, 56, 0.7);
+}
+.Successful-payment-item3 {
+  font-size: 4rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.73;
+  /* font-family: 'IRANYekanBold'; */
+  color: #06092c;
+  margin-top: 3.4rem;
+  text-align: center;
+}
+.Successful-payment-item4 {
+  font-size: 2.4rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: center;
+
+  color: rgba(14, 28, 56, 0.7);
+}
+.Successful-payment-item5-button {
+  border-radius: 1.1rem;
+
+  width: 27rem;
+  height: 6rem;
+
+  background-color: #2d3ab5;
+  padding: 1rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  color: #ffffff;
+}
+.Successful-payment-item5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7.2rem;
+  /* font-family: 'IRANYekanBold'; */
+}
+.Successful-payment-item5-button1 {
+  border-radius: 1.1rem;
+  border: solid 2px #2d3ab5;
+  padding: 1rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  color: #2d3ab5;
+  background-color: white;
+  width: 25rem;
+  margin-right: 3rem;
+  height: 6rem;
+}
+.Successful-payment-item5-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 6rem;
+}
+.Successful-payment-item5-button1 {
+  border-radius: 1.1rem;
+  border: solid 2px #2d3ab5;
+  padding: 1rem;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  color: #2d3ab5;
+  background-color: white;
+
+  width: 25rem;
+  margin-right: 3rem;
+  height: 6rem;
+}
+.Successful-payment-item5-button {
+  width: 25rem;
+  height: 6rem;
+}
+.Successful-payment-item3-red {
+  color: #f77273;
+}
+.Successful-payment-item3-green {
+  color: #1ec28e;
+}
+.Successful-payment-item5-button1 {
+  border-radius: 1.1rem;
+  border: solid 2px #2d3ab5;
+  padding: 1rem;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  color: #2d3ab5;
+  background-color: white;
+
+  width: 25rem;
+  margin-right: 3rem;
+  height: 6rem;
+}
+.Successful-payment-item5-button {
+  width: 25rem;
+  height: 6rem;
+}
+
+@media screen and (max-width: 520px) {
+  .Successful-payment-item3 {
+    font-size: 2rem;
+  }
+  .Successful-payment-item4 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .Successful-payment-item1-text1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .Successful-payment-item1-text2 {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .Successful-payment-item5 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .Successful-payment-item5-button {
+    width: 100%;
+    max-width: 300px;
+    height: 8rem;
+  }
+  .Successful-payment-item5-button1 {
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 300px;
+    height: 8rem;
+  }
+}
